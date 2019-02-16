@@ -29,21 +29,21 @@
                     </li>
                     
 
-                <% if (title == "About") { %>
+                <% if (title == "About Me") { %>
                     <li class="nav-item active">
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/about"><i class="fa fa-lg fa-info-circle"></i> About</a>
+                        <a class="nav-link" href="/about"><i class="fa fa-lg fa-info-circle"></i> About Me</a>
                     </li>
 
 
-                <% if (title == "Products") { %>
+                <% if (title == "Projects") { %>
                     <li class="nav-item active">
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/products"><i class="fa fa-lg fa-gift"></i> Products</a>
+                        <a class="nav-link" href="/projects"><i class="fa fa-lg fa-tv"></i> Projects</a>
                     </li>
 
 
@@ -61,7 +61,7 @@
                 <% } else { %>                
                     <li class="nav-item">
                 <% } %>
-                        <a class="nav-link" href="/contact"><i class="fa fa-lg fa-phone-square"></i> Contact</a>
+                        <a class="nav-link" href="/contact"><i class="fa fa-lg fa-phone-square"></i> Contact Me</a>
                     </li>
                 </ul>
             </div>
@@ -69,10 +69,13 @@
 
     <div class="container">
         <div class="jumbotron">
-            <h1 class="display-4">Hello, Hyojin Kim</h1>
-            <p class="lead">This <b><%= title %></b> page is for exercise 3 (Express Demo).</p>
+            <h1 class="display-4">Hello, I'm Hyojin.</h1>
+            <h5 class="display-10">* AND WELCOME TO MY PERSONAL PORTFOLIO *</h5>
+            <p class="lead"></p>
             <hr class="my-4">
-            <a class="btn btn-primary btn-lg" href="https://github.com/hyojin54/COMP308-W2019-Lesson3A" role="button" target="_blank">GitHub Link</a>
+            <p>I'm Hyojin Kim. I'm a creative web developer and a lover of life. </p>
+            <p>▼ Let me introduce myself. ▼</p>
+            <a class="btn btn-primary btn-lg" href="/about" role="button">About Me</a>
         </div>
     </div>
 
