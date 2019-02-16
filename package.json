@@ -1,12 +1,12 @@
 {
-  "name": "comp308-w2019-lesson3a",
+  "name": "comp308-w2019-assignment1",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "bootstrap": "^4.2.1",
+    "bootstrap": "^4.3.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
     "ejs": "~2.5.7",
@@ -15,9 +15,9 @@
     "http-errors": "~1.6.2",
     "jquery": "^3.3.1",
     "morgan": "~1.9.0",
-    "popper.js": "^1.14.6"
+    "popper.js": "^1.14.7"
   },
-  "description": "Express Generator Demo",
+  "description": "Express Portfolio Site",
   "main": "server.js",
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
