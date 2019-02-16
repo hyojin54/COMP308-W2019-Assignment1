@@ -7,11 +7,11 @@ router.get('/', (req, res, next) => {
 });
 
 router.get('/about', (req, res, next) => {
-  res.render('aboutme', { title: 'About Me' });
+  res.render('aboutme/index', { title: 'About Me' });
 });
 
 router.get('/projects', (req, res, next) => {
-  res.render('projects', { title: 'Projects' });
+  res.render('projects/index', { title: 'Projects' });
 });
 
 router.get('/services', (req, res, next) => {
