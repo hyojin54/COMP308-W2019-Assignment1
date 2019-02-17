@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+/*
+File name: server.js
+Student's name: Hyojin Kim
+Student's number: 300950009
+Date: February 16, 2019
+*/
+
 /**
  * Module dependencies.
  */

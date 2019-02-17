@@ -1,3 +1,10 @@
+/* 
+File name: app.js
+Student's name: Hyojin Kim
+Student's number: 300950009
+Date: February 16, 2019
+*/
+
 // IIFE -- Immediately Invoked Function Express
 (function(){
     function start() {

@@ -1,3 +1,10 @@
+/*
+File name: app.ejs
+Student's name: Hyojin Kim
+Student's number: 300950009
+Date: February 16, 2019
+*/
+
 let createError = require('http-errors');
 let express = require('express');
 let path = require('path');
